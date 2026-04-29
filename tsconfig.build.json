@@ -4,7 +4,9 @@
     "noEmit": false,
     "outDir": "./dist",
     "declaration": false,
-    "sourceMap": false
+    "sourceMap": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
   "include": [
     "src/**/*.ts"
